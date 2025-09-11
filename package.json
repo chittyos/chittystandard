@@ -49,6 +49,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChittyOS/standard-installer.git"
+    "url": "https://github.com/chittyos/chittystandard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chittyos/chittystandard/issues"
+  },
+  "homepage": "https://github.com/chittyos/chittystandard#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
