@@ -1,0 +1,116 @@
+{
+  "chittyApps": {
+    "chittyresolution": {
+      "name": "ChittyResolution",
+      "description": "Dispute resolution and case management system with mediation tools",
+      "package": "@chittyapps/chittyresolution",
+      "repository": "git@github.com:chittyapps/chittyresolution.git",
+      "category": "legal",
+      "dependencies": ["react", "typescript", "tailwindcss"],
+      "features": ["dispute-tracking", "mediation", "case-management"]
+    },
+    "chittychronicle": {
+      "name": "ChittyChronicle",
+      "description": "Legal timeline management for evidentiary tracking and litigation support",
+      "package": "@chittyapps/chittychronicle",
+      "repository": "git@github.com:chittyapps/chittychronicle.git",
+      "category": "legal",
+      "dependencies": ["react", "typescript", "tailwindcss"],
+      "features": ["timeline-management", "event-tracking", "chronology"]
+    },
+    "chittyevidence": {
+      "name": "ChittyEvidence",
+      "description": "Evidence management and verification system for legal proceedings",
+      "package": "@chittyapps/chittyevidence",
+      "repository": "git@github.com:chittyapps/chittyevidence.git",
+      "category": "legal",
+      "dependencies": ["python", "flask"],
+      "features": ["evidence-tracking", "verification", "chain-of-custody"]
+    },
+    "chittyflow": {
+      "name": "ChittyFlow",
+      "description": "Workflow automation and process management for legal and business operations",
+      "package": "@chittyapps/chittyflow",
+      "repository": "git@github.com:chittyapps/chittyflow.git",
+      "category": "automation",
+      "dependencies": ["react", "typescript", "tailwindcss"],
+      "features": ["workflow-automation", "process-management", "task-tracking"]
+    },
+    "chittyintel": {
+      "name": "ChittyIntel",
+      "description": "Legal intelligence and evidence analysis platform with AI integration",
+      "package": "@chittyapps/chittyintel",
+      "repository": "git@github.com:chittyapps/chittyintel.git",
+      "category": "intelligence",
+      "dependencies": ["react", "typescript", "tailwindcss"],
+      "features": ["ai-analysis", "pattern-detection", "insights"]
+    },
+    "chittytrace": {
+      "name": "ChittyTrace",
+      "description": "Evidence tracking and litigation support platform with document processing",
+      "package": "@chittyapps/chittytrace",
+      "repository": "git@github.com:chittyapps/chittytrace.git",
+      "category": "legal",
+      "dependencies": ["nodejs", "express"],
+      "features": ["document-processing", "litigation-support", "tracking"]
+    },
+    "chittycloude-mcp": {
+      "name": "ChittyCloude",
+      "description": "Universal cloud deployment extension for Cloudflare, Vercel, Railway and more",
+      "package": "@chittyapps/chittycloude-mcp",
+      "repository": "git@github.com:chittyapps/chittycloude-mcp.git",
+      "category": "deployment",
+      "dependencies": ["typescript"],
+      "features": ["cloud-deployment", "multi-platform", "ci-cd"]
+    },
+    "contradiction-engine": {
+      "name": "Contradiction Engine",
+      "description": "Advanced contradiction detection and logical inconsistency analysis engine",
+      "package": "@chittyapps/contradiction-engine",
+      "repository": "git@github.com:chittyapps/contradiction-engine.git",
+      "category": "analysis",
+      "dependencies": ["typescript"],
+      "features": ["contradiction-detection", "logic-analysis", "validation"]
+    }
+  },
+  "categories": {
+    "legal": {
+      "name": "Legal Technology",
+      "description": "Tools for legal professionals and case management"
+    },
+    "automation": {
+      "name": "Process Automation",
+      "description": "Workflow and business process automation tools"
+    },
+    "intelligence": {
+      "name": "Data Intelligence",
+      "description": "AI-powered analysis and insights"
+    },
+    "deployment": {
+      "name": "Deployment & Infrastructure",
+      "description": "Cloud deployment and infrastructure management"
+    },
+    "analysis": {
+      "name": "Analysis Tools",
+      "description": "Advanced analysis and validation engines"
+    }
+  },
+  "frameworkVersions": {
+    "minimal": {
+      "description": "Core dependencies only",
+      "apps": []
+    },
+    "standard": {
+      "description": "Recommended setup with essential apps",
+      "apps": ["chittyresolution", "chittychronicle"]
+    },
+    "professional": {
+      "description": "Full legal suite",
+      "apps": ["chittyresolution", "chittychronicle", "chittyevidence", "chittyflow", "chittyintel"]
+    },
+    "enterprise": {
+      "description": "Complete ecosystem with all components",
+      "apps": ["chittyresolution", "chittychronicle", "chittyevidence", "chittyflow", "chittyintel", "chittytrace", "chittycloude-mcp", "contradiction-engine"]
+    }
+  }
+}
