@@ -1,11 +1,12 @@
 {
   "name": "@chittyos/standard-installer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ChittyOS Standard Framework Installer - Automated setup for ChittyApps integration",
   "type": "module",
   "main": "scripts/install.js",
   "bin": {
-    "chitty-install": "./scripts/install.js"
+    "chitty-install": "./scripts/install.js",
+    "chittyos": "./scripts/install.js"
   },
   "scripts": {
     "install-standard": "node scripts/install.js",
