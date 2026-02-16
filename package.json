@@ -32,7 +32,7 @@
     "ora": "^8.0.1",
     "semver": "^7.6.0",
     "fs-extra": "^11.2.0",
-    "dotenv": "^16.4.5",
+    "dotenv": "^17.2.4",
     "detect-package-manager": "^3.0.2",
     "validate-npm-package-name": "^5.0.1"
   },
