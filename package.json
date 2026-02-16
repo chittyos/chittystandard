@@ -37,7 +37,7 @@
     "validate-npm-package-name": "^5.0.1"
   },
   "devDependencies": {
-    "@types/node": "^20.16.11",
+    "@types/node": "^25.2.2",
     "@types/fs-extra": "^11.0.4",
     "@types/inquirer": "^9.0.7",
     "@types/semver": "^7.5.8",
